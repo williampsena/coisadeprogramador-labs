@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f24d49;
+}
+
+.container {
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.container h1{
+  padding-bottom: 100px;
+}
+
+img {
+    width: 20%;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+img:hover {
+    width: 40%;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
